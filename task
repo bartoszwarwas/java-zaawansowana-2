@@ -1,0 +1,53 @@
+Zadanie 1
+Napisz klasę Circle, która będzie zawierać infomrację taką jak:
+- promień
+Ukryj dostęp do pola klasy. Upublicznij mechanizm obliczania:
+- pola koła
+- obwodu okręgu
+Zadanie 2
+Stwórz klasę MobileDevice, która będzie klasą bazową z polami:
+- rozmiar wyświetlacza
+- pamięć ram
+- cpu
+- system operacyjny
+- typ urządzenia
+Stwórz dodatkowo dwie klasy dziedziczące po klasie MobileDevice:
+- MobilePhone z polami: LTE support
+- Tablet -> pencil support
+Stwórz metodę w klasie bazowej:
+- showDeviceInfo, która wyświetli szczegóły urzadzenia
+- metoda powinna zostać nadpisana w klasach pochodnych (wyświetlenie dodatkowych szczegółów)
+Zadanie 3
+Stwórz klasę movie z polami:
+- title
+- yearOfRelease
+oraz zaimplementuj wymagane metody.
+Stwórz interfejs MovieRepositoryApi który będzie deklarować podstawowe operacji na tablicy obiektów typu Movie:
+- add
+- delete
+- findAll
+- findByTitle
+Napisz implementację interfejsu MovieRepository, która będzie implementować metody z interfejsu MovieRepositoryApi
+Zadanie 4
+Stwórz klasę enum Continent, która będzie zawierać informację o nazwie kontynentu oraz jego powierzchni (https://pl.wikipedia.org/wiki/Kontynent).
+W ramach enuma zdeklaruj wszystkie kontynenty oraz metody statyczne do:
+- zwracania największego kontynentu (skorzystaj z metody values())
+- zwracania najmniejszego kontynentu (skorzystajc z metody values())
+Zadanie 5
+Napisz klasę Pair, która będzie przyjmować dwa typy generyczne:
+* typ first
+* typ second
+Zaimplementuj metody:
+* first() -> która zwróci nam wartość first
+* second() -> która zwróci nam wartość second
+Zadanie 6
+Stwórz klasę ListConverter i zaimplementuj w niej metodę, która skonwertuje dowolną listę typu String na listę typu Integer.
+Zadanie 7
+Na podstawie poniższej listy napisz mechanizm, który zwróci tylko elementy unikalne:
+    List<Integer> values = new ArrayList<>();
+    values.add(10);
+    values.add(11);
+    values.add(10);
+    values.add(11);
+    values.add(12);
+    values.add(11);
