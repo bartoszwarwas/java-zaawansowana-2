@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9e18f54a-0d53-40b3-9792-b68163947719" name="Changes" comment="listy">
-      <change afterPath="$PROJECT_DIR$/src/main/java/oop/task1/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/oop/task1/MobileDevice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/oop/task1/MobilePhone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/oop/task1/Tablet.java" afterDir="false" />
+    <list default="true" id="9e18f54a-0d53-40b3-9792-b68163947719" name="Changes" comment="zadania">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/oop/collections/ListExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/oop/collections/MapExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/oop/showroom/collections/LisyExample.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,6 +76,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "last_opened_file_path": "C:/Users/Frontend/IdeaProjects/Java-zaawansowana-2",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
@@ -83,13 +84,26 @@
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.LisyExample">
-    <configuration name="LisyExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="oop.showroom.collections.LisyExample" />
+  <component name="RunManager" selected="Application.MapExample">
+    <configuration name="ListExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="oop.showroom.collections.ListExample" />
       <module name="Java-zaawansowana-2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="oop.showroom.collections.*" />
+          <option name="PATTERN" value="oop.collections.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MapExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="oop.collections.MapExample" />
+      <module name="Java-zaawansowana-2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="oop.collections.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,9 +124,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="oop.collections.ListExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="oop.collections.ListExample" />
+      <module name="Java-zaawansowana-2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="oop.collections.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.LisyExample" />
+        <item itemvalue="Application.MapExample" />
+        <item itemvalue="Application.oop.collections.ListExample" />
+        <item itemvalue="Application.ListExample" />
         <item itemvalue="Application.ShowroomApp" />
       </list>
     </recent_temporary>
@@ -172,7 +201,8 @@
     <MESSAGE value="init" />
     <MESSAGE value="poszatkowane" />
     <MESSAGE value="listy" />
-    <option name="LAST_COMMIT_MESSAGE" value="listy" />
+    <MESSAGE value="zadania" />
+    <option name="LAST_COMMIT_MESSAGE" value="zadania" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Java_zaawansowana_2$ShowroomApp.ic" NAME="ShowroomApp Coverage Results" MODIFIED="1673548864121" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
