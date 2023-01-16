@@ -6,4 +6,14 @@ public class MobileDevice {
     public int cpu;
     public String operationSystem;
     public String deviceType;
+    public String showDeviceInfo (){
+        return "Mobile Device{" +
+                "screenSize=" + screenSize +
+                ", memoryRam=" + memoryRam +
+                ", cpu=" + cpu +
+                ", operationSystem=" + operationSystem +
+                ", deviceType=" + deviceType +
+                '}';
+
+    }
 }

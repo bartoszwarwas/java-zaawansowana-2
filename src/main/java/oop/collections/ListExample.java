@@ -55,4 +55,5 @@ public class ListExample {
         linkedList.removeLast();
         System.out.println(linkedList);
     }
+
 }
