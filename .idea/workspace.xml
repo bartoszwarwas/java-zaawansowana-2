@@ -5,16 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9e18f54a-0d53-40b3-9792-b68163947719" name="Changes" comment="zadania">
-      <change afterPath="$PROJECT_DIR$/src/main/java/oop/collections/ListExercises.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/oop/collections/MapExercises.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/oop/collections/QueueExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/oop/collections/SetExercises.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/oop/Lambda/Hospital.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/oop/Lambda/Internist.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/oop/Lambda/LambdaExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/oop/collections/MapExercises2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/oop/collections/ListExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oop/collections/ListExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/oop/collections/SetExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oop/collections/SetExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/oop/task1/MobileDevice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oop/task1/MobileDevice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/oop/task1/MobilePhone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oop/task1/MobilePhone.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/oop/task1/Tablet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oop/task1/Tablet.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +19,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -89,7 +85,7 @@
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.MapExercises">
+  <component name="RunManager" selected="Application.MapExercises2">
     <configuration name="ListExercises" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="oop.collections.ListExercises" />
       <module name="Java-zaawansowana-2" />
@@ -103,8 +99,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MapExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="oop.collections.MapExample" />
+    <configuration name="MapExercises" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="oop.collections.MapExercises" />
       <module name="Java-zaawansowana-2" />
       <extension name="coverage">
         <pattern>
@@ -116,8 +112,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MapExercises" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="oop.collections.MapExercises" />
+    <configuration name="MapExercises2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="oop.collections.MapExercises2" />
       <module name="Java-zaawansowana-2" />
       <extension name="coverage">
         <pattern>
@@ -157,11 +153,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MapExercises2" />
         <item itemvalue="Application.MapExercises" />
         <item itemvalue="Application.SetExercises" />
         <item itemvalue="Application.ListExercises" />
         <item itemvalue="Application.QueueExample" />
-        <item itemvalue="Application.MapExample" />
       </list>
     </recent_temporary>
   </component>
@@ -209,7 +205,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673884454601</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="zadania">
+      <created>1673891411448</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1673891411448</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
